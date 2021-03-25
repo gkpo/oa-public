@@ -66,7 +66,7 @@ module.exports = ({
         offset,
       };
 
-    log('fetching', params);
+    //log('fetching', params);
 
     if (query && query.detailed) {
       params.detailed = query.detailed;
