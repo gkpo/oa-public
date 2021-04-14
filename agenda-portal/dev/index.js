@@ -14,7 +14,6 @@ const compiler = webpack(webpackConfig);
 
 dev.use(
   webpackDevMiddleware(compiler, {
-    stats: 'errors-only',
     publicPath: '/js',
   })
 );
